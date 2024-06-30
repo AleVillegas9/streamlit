@@ -11,6 +11,12 @@ Created on Sun Jun 30 00:45:37 2024
 
 import streamlit as st
 
-st.title ("Esqueleto proyecto judicatura")
+st.title ("Esqueleto proyecto judicatura") #Para agregar un titulo.
 
-st.header("Daniela come popo")
+st.image("judicatura.jpg", caption="ejemplo", use_column_width=True)
+
+st.header("Este es el pirmer borrador de esqueleto del programa para la judidactura")
+
+st.text("Aqui podria ir una pequeña descripción de que hace esta app") #st.text para escribir planamente
+
+st.markdown("[Enlace al consejo de la judicatura] (https://www.cjf.gob.mx/)") #Poner un enlace

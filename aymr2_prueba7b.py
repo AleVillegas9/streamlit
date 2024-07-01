@@ -11,6 +11,14 @@ Created on Sun Jun 30 20:52:14 2024
 #Nota: A veces se tienen problemas con el apitoken. Rehacerla en https://huggingface.co/settings/tokens
 
 
+
+
+
+# #Notasa, si sale error de que alguna libreria no esta instalada:
+#     1)crear un archivo txt llamado requirements.txt y ponerlo en el repositorio de la app
+#     2) poner todas las librerias que no se instalan, o que necesitan ser cargadas
+#     3) ver https://github.com/AleVillegas9/streamlit/blob/main/requirements.txt
+
 from langchain import HuggingFaceHub
 
 huggingfacehub_api_token = "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" #mi API key

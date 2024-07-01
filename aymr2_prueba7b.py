@@ -10,6 +10,8 @@ Created on Sun Jun 30 20:52:14 2024
 #Paso 1: Montamos el LLM
 #Nota: A veces se tienen problemas con el apitoken. Rehacerla en https://huggingface.co/settings/tokens
 
+
+pip install huggingface_hub 
 from langchain import HuggingFaceHub
 
 huggingfacehub_api_token = "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" #mi API key
@@ -42,3 +44,5 @@ query = st.text_area('Di algo y el modelo te respondera')
 
 
 st.write(llm(f'{query}'))
+
+#Nota,creo que es ago de streamlit, porque este usuario, tambien tiene elmismo error https://docs.streamlit.io/develop/tutorials/llms/llm-quickstart

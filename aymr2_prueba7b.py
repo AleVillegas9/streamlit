@@ -11,7 +11,6 @@ Created on Sun Jun 30 20:52:14 2024
 #Nota: A veces se tienen problemas con el apitoken. Rehacerla en https://huggingface.co/settings/tokens
 
 
-pip install huggingface_hub 
 from langchain import HuggingFaceHub
 
 huggingfacehub_api_token = "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" #mi API key

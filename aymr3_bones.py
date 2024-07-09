@@ -13,9 +13,20 @@ import streamlit as st
 
 #Paso 1: Datos generales
 
-st.image("judicatura.jpg", use_column_width=True) #Quizá también añadir un logotipo del proyecto. Que lo haga la IA xd. 
 
-st.title('Asistente jurídico Aymr') #Cambiar el nombre cuando se decida uno
+image_url = (r"C:\Users\javal\OneDrive\Desktop\judicatura\Con LLM\Streamlit\judicatura.jpg")
+
+html_code = f'''
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div style="flex: 1;">
+        <img src="{image_url}" style="max-width: 150px;">
+    </div>
+    <div style="flex: 3; text-align: right;">
+        <h1>Mi Asistente jurídico Aymr</h1>
+    </div>
+</div>
+'''
+
 
 st.header("Aymr es un asistente jurídico, impulsado con inteligencia artificial, que te ayudará en la busqueda de normas que sean relevantes para tu caso. Además de que te permitirá interactuar con dichas normas. Su funcionamiento es muy sencillo. Primero debes de seleccionar la categoria en la que se enmarca tu caso en cuestión. Aymr te dará una lista de las normas con una mayor posibilidad de relacionarse con tu caso. Segundo, elije una norma con la que quieras chatear, y hazle preguntas.")  #Mejorar descripción
 

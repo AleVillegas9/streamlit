@@ -36,7 +36,7 @@ categoria2 = st.multiselect('Selecciona las categorias con las que se relaciona 
 
 st.write(f'Haz seleccionado las categorias {categoria2}')
 
- 
+
 
 
 

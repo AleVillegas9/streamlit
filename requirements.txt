@@ -5,4 +5,3 @@ huggingface_hub
 pinecone
 langchain_pinecone
 langchain_openai
-dotenv

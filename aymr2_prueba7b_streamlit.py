@@ -16,15 +16,11 @@ Created on Sun Jun 30 20:52:14 2024
 #     2) poner todas las librerias que no se instalan, o que necesitan ser cargadas
 #     3) ver https://github.com/AleVillegas9/streamlit/blob/main/requirements.txt
 
-from langchain import HuggingFaceHub
+import streamlit as st
 
-from dotenv import load_dotenv
 
-load_dotenv()
 
-import os
-
-hf_apikey = os.getenv('huggingfacehub_api_token')
+hf_apikey = st.secrets['hf_apikey']
 
 repo_id = "tiiuae/falcon-7b-instruct" #nombre del modelo que agarrare en este caso falcon 11b
 
@@ -41,7 +37,7 @@ llm = HuggingFaceHub(huggingfacehub_api_token=hf_apikey,
 #Paso 2: Lo montamos en streamlit
 
 
-import streamlit as st
+
 
 
 st.title('Prueba')

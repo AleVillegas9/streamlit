@@ -17,7 +17,7 @@ Created on Sun Jun 30 20:52:14 2024
 #     3) ver https://github.com/AleVillegas9/streamlit/blob/main/requirements.txt
 
 import streamlit as st
-
+from langchain import HuggingFaceHub
 
 
 hf_apikey = st.secrets['hf_apikey']

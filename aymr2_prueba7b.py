@@ -26,8 +26,6 @@ import os
 
 hf_apikey = os.getenv('huggingfacehub_api_token')
 
-# huggingfacehub_api_token = "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" #mi API key
-
 repo_id = "tiiuae/falcon-7b-instruct" #nombre del modelo que agarrare en este caso falcon 11b
 
 llm = HuggingFaceHub(huggingfacehub_api_token=hf_apikey,
